@@ -1,14 +1,16 @@
 :root {
-  --tansparent-white: rgba(255, 255, 255, 0.6);
-  --white: #ffffff;
-  --pale-grey: #eeeeee;
-  --light-grey: #ececec;
-  --grey: #757575;
-  --dark-grey: #212121;
-  --light-blue: #f5f4fa;
-  --blue: #2196f3;
-  --dark-blue: #2f303a;
-  --black: #000000;
+  --title-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --background-accent-color: #2f303a;
+  --background-color: #fff;
+  --background-team-color: #f5f4fa;
+  --second-accent-color: #fff;
+  --frame-color: #eee;
+  --logo-accent-color: #000;
+  --background-button-color: #f5f4fa;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --header-frame-color: #ececec;
 }
 
 body {
@@ -24,12 +26,12 @@ ul {
 }
 
 .header {
-  border-bottom: 1px solid var(--light-grey, #ececec);
+  border-bottom: 1px solid var(--header-frame-color, #ececec);
 }
 
 .header-logo,
 .footer-logo {
-  color: var(--blue, #2196f3);
+  color: var(--accent-color, #2196f3);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -38,11 +40,11 @@ ul {
 }
 
 .header-logo-accent {
-  color: var(--black, #000);
+  color: var(--logo-accent-color, #000);
 }
 
 .header-nav-link {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -51,11 +53,11 @@ ul {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-  color: var(--blue, #2196f3);
+  color: var(--accent-color, #2196f3);
 }
 
 .header-contacts-link {
-  color: var(--grey, #757575);
+  color: var(--text-color, #757575);
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -64,15 +66,15 @@ ul {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: var(--blue, #2196f3);
+  color: var(--accent-color, #2196f3);
 }
 
 .hero {
-  background-color: var(--dark-blue, #2f303a);
+  background-color: var(--background-accent-color, #2f303a);
 }
 
 .hero-title {
-  color: var(--white, #fff);
+  color: var(--second-accent-color, #fff);
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -82,7 +84,7 @@ ul {
 }
 
 .hero-button {
-  color: var(--white, #fff);
+  color: var(--second-accent-color, #fff);
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -90,12 +92,12 @@ ul {
   letter-spacing: 0.96px;
   border-radius: 4px;
   border: none;
-  background-color: var(--blue, #2196f3);
+  background-color: var(--accent-color, #2196f3);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .advantages-subtitle {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
@@ -104,7 +106,7 @@ ul {
 }
 
 .advantages-desc {
-  color: var(--grey, #757575);
+  color: var(--text-color, #757575);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -112,7 +114,7 @@ ul {
 }
 
 .doing-title {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -121,19 +123,19 @@ ul {
 }
 
 .team {
-  background: var(--light-blue, #f5f4fa);
+  background: var(--background-team-color, #f5f4fa);
 }
 
 .team-item {
   border-radius: 0px 0px 4px 4px;
-  background: var(--white, #fff);
+  background: var(--background-color, #fff);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   max-width: 270px;
 }
 
 .team-title {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -142,7 +144,7 @@ ul {
 }
 
 .team-subtitle {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
@@ -150,7 +152,7 @@ ul {
 }
 
 .team-desc {
-  color: var(--grey, #757575);
+  color: var(--text-color, #757575);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
@@ -158,15 +160,15 @@ ul {
 }
 
 .footer {
-  background-color: var(--dark-blue, #2f303a);
+  background-color: var(--background-accent-color, #2f303a);
 }
 
 .footer-logo-accent {
-  color: var(--white, #fff);
+  color: var(--second-accent-color, #fff);
 }
 
 .footer-map {
-  color: var(--white, #fff);
+  color: var(--second-accent-color, #fff);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -174,7 +176,7 @@ ul {
 }
 
 .footer-link {
-  color: var(--transparent-white, rgba(255, 255, 255, 0.6));
+  color: var(--address-color, rgba(255, 255, 255, 0.6));
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -184,7 +186,7 @@ ul {
 /* Portfolio */
 
 .portfolio-btn {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -192,21 +194,21 @@ ul {
   letter-spacing: 0.48px;
   border: none;
   border-radius: 4px;
-  background: var(--light-blue, #f5f4fa);
+  background: var(--background-button-color, #f5f4fa);
   padding: 6px 22px;
 }
 
 .portfolio-btn:hover {
-  color: var(--white, #fff);
+  color: var(--second-accent-color, #fff);
   text-align: center;
-  background: var(--blue, #2196f3);
+  background: var(--accent-color, #2196f3);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   padding: 6px 25px;
 }
 
 .portfolio-article-title {
-  color: var(--dark-grey, #212121);
+  color: var(--title-color, #212121);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -214,7 +216,7 @@ ul {
 }
 
 .portfolio-article-desc {
-  color: var(--grey, #757575);
+  color: var(--text-color, #757575);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
