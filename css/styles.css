@@ -17,13 +17,7 @@ body {
   font-family: Roboto;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
+/* Шапка сайту */
 
 .header {
   border-bottom: 1px solid var(--header-frame-color, #ececec);
@@ -91,10 +85,11 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.96px;
   border-radius: 4px;
-  border: none;
   background-color: var(--accent-color, #2196f3);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+/* Переваги */
 
 .advantages-subtitle {
   color: var(--title-color, #212121);
@@ -113,6 +108,8 @@ ul {
   letter-spacing: 0.42px;
 }
 
+/* Що робимо */
+
 .doing-title {
   color: var(--title-color, #212121);
   text-align: center;
@@ -121,6 +118,8 @@ ul {
   line-height: normal;
   letter-spacing: 1.08px;
 }
+
+/* Команда */
 
 .team {
   background: var(--background-team-color, #f5f4fa);
@@ -159,6 +158,8 @@ ul {
   letter-spacing: 0.48px;
 }
 
+/* Підвал сайту */
+
 .footer {
   background-color: var(--background-accent-color, #2f303a);
 }
@@ -192,7 +193,6 @@ ul {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
-  border: none;
   border-radius: 4px;
   background: var(--background-button-color, #f5f4fa);
   padding: 6px 22px;
